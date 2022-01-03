@@ -1,4 +1,93 @@
+/* Element */
 h1 {
-  color: hotpink;
-  font-family: cursive;
+    color: hotpink;
+    font-family: cursive;
 }
+
+body {
+    margin: 0;
+}
+
+hr {
+    width: 99%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* class */
+.login-screen-layout {
+    background: #4568DC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+}
+
+.header {
+    width: 80%;
+}
+
+.header h1 {
+    font-family: Arial Black;
+    color: black;
+    text-align: center;
+}
+
+.userName {
+    width: 80%;
+}
+
+.password {
+    width: 80%;
+}
+
+.forgotPassword {
+    color: gray;
+    opacity: 1;
+    text-align: left;
+    width: 80%;
+}
+
+.loginButton {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.signUp {
+    color: gray;
+    opacity: 1;
+}
+
+/* id */
+#userName, #password {
+    border-width: 0;
+}
+
+#loginButton {
+    background-color: #4568DC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+
