@@ -1,4 +1,105 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+    font-family: Calibri;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: gray;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: antiquewhite;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    width: 30%;
+    height: auto;
+
+}
+
+.post-header {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+.post-header-content {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+
+}
+
+.post-header-menu {
+    flex: 1;
+    text-align: right;
+}
+
+.post-body-content {
+    margin: 0px 16px 0px 16px;
+}
+
+.post-body-img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-activity {
+    margin: 10px 16px 0px 16px;
+
+}
+
+.post-activity-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-activity-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#post-header-content-title {
+    font-weight: bold;
+    color: black;
+}
+
+#post-body-img {
+    width: 100%;
+}
+
+#post-body-img-description {
+    flex: 1;
+    padding: 0px 16px 0px 16px;
+    background: #EEF3F8;
+
+}
+
+#post-body-img-description-t-black {
+    font-weight: bold;
+}
+
+#post-body-img-description-t-gray {
+    color: gray;
+}
+
+#post-activity-buttons-like,#post-activity-buttons-comment,#post-activity-buttons-share,#post-activity-buttons-send {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    cursor: pointer;
 }
