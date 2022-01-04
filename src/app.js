@@ -10,7 +10,8 @@ axios
         // products variable below by destructuring
         // You can use alias
         console.log(response);
-        const products = response.data;
+        const {data} = response;
+        const products = data;
 
         // Print names of all product to the console
         // by calling foreach  method (use arrow function)
