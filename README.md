@@ -41,3 +41,13 @@ For this assigment, you need to prepare a Linkedin post.
 
 ## Assignment-3 (JS Practice)
 This assigment is about JS. All the steps you need to complete written in app.js file.
+
+
+## RESULT : Assignment-1 (Login Screen Branch) 
+![This is an image](./assets/login-screen-result.PNG)
+
+## RESULT : Assignment-2 (Linkedin Post Branch)
+![This is an image](./assets/linkedin-post-result.PNG)
+
+## RESULT : Assignment-3 (JS Practice Branch)
+![This is an image](./assets/js-practice-result.PNG)
